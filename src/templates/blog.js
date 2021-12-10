@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
+import Head from '../components/head'
 
 export const query = graphql`
   query($slug: String!) {

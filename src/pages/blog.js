@@ -3,6 +3,7 @@ import { Link, graphql, useStaticQuery } from 'gatsby'
 
 import Layout from '../components/layout'
 import { posts, post } from './blog.module.scss'
+import Head from '../components/head'
 
 
 const BlogPage = () => {
@@ -28,7 +29,8 @@ const BlogPage = () => {
 
     return (
         <Layout>
-            <h1>Blog</h1>
+            <Head title="Blog"/>
+            <h1>Projects</h1>
             <ol className={posts}>
                 {data.allMarkdownRemark.edges.map((edge) => {
                     return (

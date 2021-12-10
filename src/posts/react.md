@@ -1,5 +1,5 @@
 ---
-title: "Manas Mindfullness App"
+title: "Manas Mindfulness App"
 date: "2021-10-15"
 ---
 
