@@ -2,11 +2,11 @@ import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
 import Layout from '../components/layout'
-import { posts, post } from './blog.module.scss'
+import { posts, post } from './project.module.scss'
 import Head from '../components/head'
 
 
-const BlogPage = () => {
+const ProjectPage = () => {
     const data = useStaticQuery(graphql`
         query {
             allMarkdownRemark {
@@ -25,17 +25,16 @@ const BlogPage = () => {
         }
     `)
 
-    console.log(data)
 
     return (
         <Layout>
-            <Head title="Blog"/>
+            <Head title="Projects"/>
             <h1>Projects</h1>
             <ol className={posts}>
                 {data.allMarkdownRemark.edges.map((edge) => {
                     return (
                         <li className={post}>
-                            <Link to={`/blog/${edge.node.fields.slug}`}>
+                            <Link to={`/projects/${edge.node.fields.slug}`}>
                                 <h2>{edge.node.frontmatter.title}</h2>
                                 <p>{edge.node.frontmatter.date}</p>
                             </Link>
@@ -47,4 +46,4 @@ const BlogPage = () => {
     )
 }
 
-export default BlogPage
+export default ProjectPage

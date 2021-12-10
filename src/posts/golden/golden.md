@@ -1,14 +1,24 @@
 ---
 title: "Golden Silence"
-date: "2021-09-20"
+date: "2021-11-05"
 ---
 
-Project build using 
+Allows users to look up silent films from the 1920's and build a collection of their favorite films.
 
-![Catatonic](./grass.jpeg)
+**To check out the app, click <a href="https://golden-silence.netlify.app" target="_blank">here</a>**
+
+
+![Golden-Silence](./golden.jpeg)
 
 ## Technologies Used
 
-1. HTML
-2. CSS
-3. JavaScript/jQuery
+1. HTML, CSS, JavaScript/jQuery
+2. Mongoose
+3. MongoDB
+4. Heroku
+5. Node JS
+6. Express
+7. React
+8. Netlify
+9. Firebase
+10. Google Auth

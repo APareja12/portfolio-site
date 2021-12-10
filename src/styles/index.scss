@@ -45,6 +45,8 @@ html {
   a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
+    text-decoration: none;
+    color: #F5C6A5;
   }
   a:active,
   a:hover {
