@@ -5,7 +5,8 @@ date: "2021-09-24"
 
 A Javascript app that allows users to have their current mood displayed by a cat meme by using the Giphy API.
 
-**To check out the app, click <a href="https://mood-cat.netlify.app" target="_blank">here</a>**
+**To check out the app, click <a href="https://mood-cat.netlify.app" target="_blank">here</a>** <br>
+<a href="https://github.com/APareja12/Mood-Cat/tree/master" target="_blank">Github</a>
 
 ![Catatonic](./catatonic.jpeg)
 

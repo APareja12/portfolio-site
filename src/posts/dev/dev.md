@@ -7,6 +7,8 @@ Dev-to-Dev is a Django based app that allows users, specifically bootcamp studen
 
 
 **To check out the app, click <a href="https://dc-dev-to-dev-test.herokuapp.com/" target="_blank">here</a>**
+<br>
+<a href="https://github.com/APareja12/dev-to-dev" target="_blank">Github</a>
 
 ![Dev-to-Dev](./dev.jpeg)
 
